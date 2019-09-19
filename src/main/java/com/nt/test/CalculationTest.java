@@ -9,6 +9,10 @@ public class CalculationTest {
 	{
 		return a-b;
 	}
+	public static int multi(int a,int b)
+	{
+		return a-b;
+	}
 	
 
 	public static void main(String[] args) {
@@ -17,6 +21,9 @@ public class CalculationTest {
 		System.out.println(addition);
 		int sub=sub(8,6);
 		System.out.println(sub);
+		int multi=multi(8,6);
+		System.out.println(multi);
+		
 		
 		
 
